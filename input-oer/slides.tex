@@ -1,0 +1,75 @@
+\documentclass[14pt]{beamer}
+
+\usetheme[numbering=fraction,progressbar=frametitle]{metropolis}
+
+%\usepackage{tikz}
+%\usetikzlibrary{arrows, arrows.meta, positioning, decorations.markings, shapes, snakes}
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{marvosym} 
+\usepackage{comment}
+
+\newcommand\Wider[2][2.0cm]{%
+\makebox[\linewidth][c]{%
+  \begin{minipage}{\dimexpr\textwidth+#1\relax}
+  \raggedright#2
+  \end{minipage}%
+  }%
+}
+
+\makeatletter
+\def\blfootnote{\gdef\@thefnmark{}\@footnotetext}
+\makeatother
+
+\title{Open Educational Resources}
+\subtitle{}
+\author{Valentin Roland \& Charlotte Bäcker}
+\date{28.04.19}
+
+\begin{document}
+\maketitle
+
+\section{Was sind \glqq OER\grqq?}
+
+{
+    \usebackgroundtemplate{
+    \includegraphics[width=\paperwidth]{./img/Global_Open_Educational_Resources_Logo.pdf}
+    }
+    \begin{frame}{}
+        \vspace{-.1cm}
+
+        \blfootnote{\vspace{-.7cm}\textcolor{white}{OER Global Logo by Jonathas Mello (CC BY 3.0).}}
+    \end{frame}
+}
+
+\begin{frame}{UNESCO - Definition}
+    \glqq \alert{teaching, learning and research materials} in any medium, [...], that reside in the \alert{public domain} or have been released under an \alert{open license} that permits \alert{no-cost access, use, adaptation and redistribution} [...] with no or limited restrictions.\grqq \footnote{UNESCO, \tiny{https://en.unesco.org/themes/building-knowledge-societies/oer\#collapseOne, 16.03.19}}%\footnote{UNESCO, \url{}}
+
+    \note{
+        \begin{itemize}
+            \item Freie Lizenz
+            \item Freie Verbreitung und Veränderung
+            \item Freier Zugriff für alle
+            \item Kommerzielle Benutzung erlaubt
+        \end{itemize}
+    }
+\end{frame}
+
+\begin{frame}{Ziele}
+
+\end{frame}
+
+\section{Quellen}
+
+\begin{frame}{}
+    \nocite{*}
+    \bibliographystyle{alphadin}
+
+    \twocolumn
+    \bibliography{literature}
+\end{frame}
+
+\end{document}
