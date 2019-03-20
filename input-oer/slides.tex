@@ -1,4 +1,4 @@
-\documentclass[14pt]{beamer}
+\documentclass[14pt, usenames, dvipsnames, notes]{beamer}
 
 \usetheme[numbering=fraction,progressbar=frametitle]{metropolis}
 
@@ -10,7 +10,7 @@
 \usepackage{multicol}
 \usepackage{tabularx}
 \usepackage{marvosym} 
-\usepackage{comment}
+\usepackage{setspace}
 
 \newcommand\Wider[2][2.0cm]{%
 \makebox[\linewidth][c]{%
@@ -34,33 +34,133 @@
 
 \section{Was sind \glqq OER\grqq?}
 
-{
-    \usebackgroundtemplate{
-    \includegraphics[width=\paperwidth]{./img/Global_Open_Educational_Resources_Logo.pdf}
-    }
-    \begin{frame}{}
-        \vspace{-.1cm}
+    {
+        \usebackgroundtemplate{
+        \includegraphics[width=\paperwidth]{./img/Global_Open_Educational_Resources_Logo.pdf}
+        }
+        \begin{frame}{}
+            \vspace{-.1cm}
 
-        \blfootnote{\vspace{-.7cm}\textcolor{white}{OER Global Logo by Jonathas Mello (CC BY 3.0).}}
+            \blfootnote{\vspace{-.7cm}\textcolor{white}{OER Global Logo by Jonathas Mello (CC BY 3.0).}}
+        \end{frame}
+    }
+
+    \begin{frame}{UNESCO - Definition}
+        \glqq \alert{teaching, learning and research materials} in any medium, [...], that reside in the \alert{public domain} or have been released under an \alert{open license} that permits \alert{no-cost access, use, adaptation and redistribution} [...] with no or limited restrictions.\grqq \footnote{UNESCO, \tiny{https://en.unesco.org/themes/building-knowledge-societies/oer\#collapseOne, 16.03.19}}%\footnote{UNESCO, \url{}}
+
+        \note{
+            \begin{itemize}
+                \item Freie Lizenz
+                \item Freie Verbreitung und Veränderung
+                \item Freier Zugriff für alle
+                \item Kommerzielle Benutzung erlaubt
+            \end{itemize}
+        }
     \end{frame}
-}
 
-\begin{frame}{UNESCO - Definition}
-    \glqq \alert{teaching, learning and research materials} in any medium, [...], that reside in the \alert{public domain} or have been released under an \alert{open license} that permits \alert{no-cost access, use, adaptation and redistribution} [...] with no or limited restrictions.\grqq \footnote{UNESCO, \tiny{https://en.unesco.org/themes/building-knowledge-societies/oer\#collapseOne, 16.03.19}}%\footnote{UNESCO, \url{}}
+    \begin{frame}{Alternativ: 5R Permissions}
+        \hfill\begin{minipage}{.9\textwidth}
+            \begin{itemize}
+                \item[\alert{Retain}] {\small right to} make, own, control copies
+                \item[\alert{Reuse}] {\small right to} use in wide range of contexts
+                \item[\alert{Revise}] {\small right to} adapt, modify, alter the content
+                \item[\alert{Remix}] {\small right to} combine with other materials
+                \item[\alert{Redistribute}] {\small right to} share (original or altered)
+            \end{itemize}
+        \end{minipage}
+        \blfootnote{by David Wiley (CC-BY 4.0), \tiny{http://opencontent.org/definition/}}
 
-    \note{
+        \note{
+            \begin{itemize}
+                \item Retain: Aufrufen eines Wikipediartikels
+                \item Reuse: Aufgabensammlung als Unterrichtsmaterial, Bilder in Vortrag
+                \item Revise: Lehrtext übersetzen, an Zielgruppe anpassen
+                \item Remix: Aufgabensammlung erstellen
+                \item Redistribute: Selbsterklärend, tw. Zwang $\rightarrow$ Copyleft
+            \end{itemize}
+        }
+    \end{frame}
+
+    \begin{frame}{Video}
+        \begin{center}
+            Why Open Education Matters by David Blake (CC-BY 3.0)
+        \end{center}
+    \end{frame}
+
+    \begin{frame}{Ziele} 
+        \begin{center}
+            Bildungsgerechtigkeit\\
+            \vspace{1cm}
+             Größere Materialienvielfalt\hfill Kostensenkung\\
+             \vspace{1cm}
+            Qualitätssteigerung durch Zusammenarbeit
+        \end{center}
+        \note {
+            \begin{itemize}
+                \item Freier Zugang für Benachteiligte $\rightarrow$ Notwendig, nicht Hinreichend
+                \item Größere Vielfalt $\Rightarrow$ Andere Herangehensweisen, Perspektiven
+                \item Finanzierung aus öffentlicher Hand? $\Rightarrow$ Einmalkosten für materialien
+            \end{itemize}
+        }
+    \end{frame}
+
+\section{Freie Lizenzen}
+
+    \begin{frame}{Lizenzen}
+        \begin{center}
+            \includegraphics[height=.4\textheight]{img/cc.pdf}
+        \end{center}
+        \includegraphics[width=.4\textwidth]{img/GFDL_Logo.pdf}
+        \hfill
+        \includegraphics[width=.4\textwidth]{img/GPLv3_Logo.pdf}
+
+        \note {
+            GFDL - GNU Free Documentation License (GNU Project, Wikipedia)\\
+            GPL - GNU General Public License (GNU Project, Free Software)\\
+            $\hookrightarrow$ GFDL, GPL zwangsläufig Copyleft
+
+            CC - Creative Commons, Modulare Lizenz, für OER größte Verbreitung
+        }
+    \end{frame}
+
+\section{Diskussion}
+
+%TODO: Add notes for all questions
+
+\setbeamercolor{background canvas}{bg=mDarkTeal}
+
+\begin{frame}{}
+    \begin{center}
+        \setstretch{1.7}
+        \textcolor{white}{\LARGE OER oder \glqq nur\grqq~kostenlos\dots\\ Macht das einen Unterschied?}
+    \end{center}
+\end{frame}
+
+\begin{frame}{}
+    \begin{center}
+        \setstretch{1.7}
+        \textcolor{white}{\LARGE Copyleft - Verbreitungsbremse oder sinnvoller Selbstschutz?}
+    \end{center}
+\end{frame}
+
+\begin{frame}{}
+    \begin{center}
+        \setstretch{1.7}
+        \textcolor{white}{\LARGE Wo kommt OER in der Schule der Zukunft zum Einsatz?}
+    \end{center}
+    \note{ 
         \begin{itemize}
-            \item Freie Lizenz
-            \item Freie Verbreitung und Veränderung
-            \item Freier Zugriff für alle
-            \item Kommerzielle Benutzung erlaubt
+            \item Vielfalt $\leftrightarrow$ Lehrplankompatibilität\\
+            \item Qualitätssicherung?
+            \item Selbständiges Lernen mit OER? $\rightarrow$ Medienkompetenz
+            \item Kostengünstiger? Keine Verlagsgebüren, Steuerfinanzierung?
         \end{itemize}
+
     }
 \end{frame}
 
-\begin{frame}{Ziele}
 
-\end{frame}
+\setbeamercolor{background canvas}{bg=white}
 
 \section{Quellen}
 
