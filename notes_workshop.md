@@ -24,8 +24,6 @@ Gliederung
 - Pause
 - Beispiel: Serlo
     - Wer / Wie beitragen
-- Input: Uhrheberrecht, Uhrheberrechtsreform, OER an Unis
-    - Wo sinnvoll, wo nicht? (Bilderfolien <-> Universell)
 - Diskussion
 
 Serlo
@@ -39,6 +37,9 @@ Agilität <-> Partizipation, Matrikstruktur <-> Hierarchie
 0. Energizer
     - Ninja
 1. Vortrag Serlo, Bildungsvision von Serlo
+    - Welche Skills brauchen wir?
+    - Entwicklung (z.B. inzwischen Hauptamtliche)
+    - Wer sind unsere Autor\*innen?
 2. Wie sollen Lernmaterialien der Zukunft aussehen?
     - 5 Minuten, eigene Vision
     - 5 Minuten Zusammentragen in 3er Gruppen
