@@ -1,0 +1,89 @@
+\documentclass[14pt, usenames, dvipsnames, notes]{beamer}
+
+\usetheme[numbering=fraction,progressbar=frametitle]{metropolis}
+
+%\usepackage{tikz}
+%\usetikzlibrary{arrows, arrows.meta, positioning, decorations.markings, shapes, snakes}
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{marvosym}
+\usepackage{setspace}
+
+\newcommand{\aussage}[1]{	\begin{frame}{Rollenspiel}
+	\centering #1
+	\end{frame}}
+
+\newcommand\Wider[2][2.0cm]{%
+\makebox[\linewidth][c]{%
+  \begin{minipage}{\dimexpr\textwidth+#1\relax}
+  \raggedright#2
+  \end{minipage}%
+  }%
+}
+
+\makeatletter
+\def\blfootnote{\gdef\@thefnmark{}\@footnotetext}
+\makeatother
+
+\title{Open Educational Resources}
+\subtitle{\hfill\& Bildungsgerechtigkeit}
+\author{Valentin Roland \& Charlotte Bäcker}
+\date{27.04.19}
+
+\begin{document}
+\maketitle
+
+{
+    \usebackgroundtemplate{
+    \includegraphics[width=\paperwidth]{./img/Global_Open_Educational_Resources_Logo.pdf}
+    }
+    \begin{frame}{}
+        \vspace{-.1cm}
+
+        \blfootnote{\vspace{-.7cm}\textcolor{white}{OER Global Logo by Jonathas Mello (CC BY 3.0).}}
+    \end{frame}
+}
+
+\begin{frame}{}
+    \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=.8\textwidth]{img/serlo-logo.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{img/mfnf.png}
+    \end{minipage}
+\end{frame}
+
+%\setbeamercolor{background canvas}{bg=mDarkTeal}
+
+\begin{frame}{1. Teil}
+    \begin{center}
+        \setstretch{1.7}
+        {\Large Was ist OER? Was ist Bildungsgerechtigkeit?}
+
+        \medskip
+
+        {\Large Hängt das Zusammen?}
+    \end{center}
+\end{frame}
+
+\begin{frame}{2. Teil}
+    \begin{center}
+        \setstretch{1.7}
+        {\Large Wie entstehen OER? }
+
+        \medskip
+
+        {\Large Wie sehen Lehr- und Lernmaterialien zukünftig aus?}
+    \end{center}
+\end{frame}
+
+
+\setbeamercolor{background canvas}{bg=white}
+
+\end{document}
