@@ -2,32 +2,31 @@
 Allgemein
 =========
 
-- aller 20 min Format wechseln
-- Uhrheberrechtsreform
-- Impactgefühl / Qualität / Autor\*innenengruppe
-    - Kontroverse Diskussion
+- ca. aller 20 min Format wechseln
+- Uhrheberrechtsreform?
 - Bei gutem Wetter draußen diskutieren
 
 Gliederung
 ==========
 
-- Vorstellungsrunde: Name, Studiengang, 1 Satz zur Person
+1. Teil
+-------
+- Vorstellungsrunde: Name, 1 Satz zur Person
+    - Zuordnen: Für wie wichtig hältst du OER? (Visuell)
+
 - Inputvortrag (max. 20 min)
     - Lizenzen erklären
 - Zuordnungsspiel:
     - frei: Wikipedia (CC-By-SA 3.0, GFDL), Serlo.org, Mathe für Nicht-Freaks
-    - nicht-frei: Leifi Physik?, SimpleClub, Khan Academy, frustfrei-lernen.de
+    - nicht-frei: Leifi Physik?, SimpleClub, Khan Academy, frustfrei-lernen.de, ...
     - selbst herausfinden lassen
     - Eigene Erfahrungen?
+        - Wofür? Wer dahinter? Zielgruppe?
 - Diskussion:
     - Warum wenig OER? Kann OER nötige Qualität liefern? OER sinnvoll?
-- Pause
-- Beispiel: Serlo
-    - Wer / Wie beitragen
-- Diskussion
 
-Serlo
-=====
+2. Teil
+-------
 
 Wie entsteht OER?
 Wie könnte Dresdener Gruppe wachsen?
@@ -47,4 +46,3 @@ Agilität <-> Partizipation, Matrikstruktur <-> Hierarchie
 
 3. Wie Umsetzen? Welche Skills, Serlo Methoden vorstellen.
 
--> E-Mail für Folienverteilung, Leute danach Ansprechen
